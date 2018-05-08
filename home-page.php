@@ -14,52 +14,31 @@
     <script src="bootstrap/js/simpleCart.min.js"></script>
 </head>
 <body>
-<div class="navbar navbar-inverse" >
-<nav style="" class="navbar">
-    <div class="container-fluid">
-        <div class="col-md-8 col-sm-9 col-lg-9" style="margin-left:200px;">
-        <ul class="nav navbar-nav" >
-            <li class="active">
-                <a href="#"> <i class="glyphicon glyphicon-home"></i><strong> Home</strong>
-                </a>
-            </li>
-            <li class="active">
-                <a href="#"><i class="glyphicon glyphicon-align-justify"></i><strong> Category</strong></a>
-            </li>
-            <li class="dropdown active">
-                <a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-refresh fa-spin" aria-hidden="true">
-                    </i> <strong > Update</strong><b class="caret"></b>
-                </a>
-            <ul class="dropdown-menu">
-                <li><a href="">Update History</a> </li>
-                <li><a href="">How To Update</a> </li>
-            </ul>
-            </li>
-            <li class="active">
-                <a href="#"><strong> Shop</strong></a>
-            </li>
-            <li style="background:rgba(7,255,118,0.87);">
-                <a href="#"> <strong style="color: rgba(255,0,121,0.87)"> JOIN CLUB</strong></a>
-            </li>
-            <li class="active">
-                <a href="#" ><i class=" glyphicon glyphicon-log-in"></i><strong> Login</strong> </a>
-            </li>
-        </ul>
-
+<br>
+<div class="container">
+<div class="container" style="text-align: center">
+    <div class="row">
+        <a class="" href="">
+            <img src="https://woocrack.com/wp-content/uploads/2016/12/woocrackv3.png" alt="Woocrack" width="240">
+        </a>
     </div>
-        <div class="col-md-4 col-sm-3 col-lg-3">
-            <ul class="nav navbar-nav">
-                <li class="active" style="color: rgba(50,235,255,0.87)">
-
-                    <strong >Cart(0)</strong> <i>|</i><strong>0.00</strong><i class="glyphicon glyphicon-shopping-cart"></i>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-   </nav>
 </div>
+<br>
+
+    <div class="row" style="margin-left: 200px">
+        <div class="col-md-4 col-md-offset-3" >
+            <form action="" class="search-form">
+                <div class="form-group has-feedback">
+                    <label for="search" class="sr-only">Search</label>
+                    <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<br>
 
 <div class="container">
     <div class="navbar col-ms-12" style="background:#3B5B7E;">
@@ -93,17 +72,20 @@
             <a href=""><strong style="color: #ffffff"><i class=" glyphicon glyphicon-log-in"></i> Login</strong></a>
             </li>
         </ul>
-        <div class="" style="background:#3B5B7E;">
-            <ul class="nav navbar-nav" >
-                <strong style="color:#ffffff;padding: 20px">Cart (0.0)</strong>
+        <div class="" style="">
+            <ul class="nav navbar-nav" style="float:right;margin-right: 10px" >
+                <li style="background: rgba(8,112,250,0.78)">
+                    <a href="">
+                <strong style="color:#ffffff;"><i class="glyphicon glyphicon-shopping-cart"></i> CART</strong>
+                    </a>
+                </li>
             </ul>
         </div>
 
-
-    </div>
-
+    </div
 
 </div>
+
 
 </body>
 </html>
