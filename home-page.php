@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="bootstrap/css/font-awesome.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/styel.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap/js/jquery-3.3.1.js"></script>
@@ -34,25 +37,23 @@
                 </div>
             </form>
         </div>
-    </div>
-</div>
+      </div>
     <div class="container ">
        <nav class="navbar " id="my-navbar">
            <div class="" style="background:#324C69;">
                <div class="navbar-header">
                    <button style="background:white;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navber-collapse">
                       <span class="icon-bar" ></span>
-                       <span class="icon-prev" ></span>
-                       <span class="fa-i-cursor" ></span>
-
+                      <span class="icon-bar" ></span>
+                      <span class="icon-bar" ></span>
                    </button>
 
                </div>
                   <div class="collapse navbar-collapse" id="navber-collapse">
                       <ul class="nav navbar-nav"  >
-                  <li >
-                      <a href=""><strong style="color: #ffffff"><i class="glyphicon glyphicon-home"></i>Home</strong></a>
-                  </li>
+                         <li>
+                             <a href=""><strong style="color: #ffffff"><i class="glyphicon glyphicon-home"></i>Home</strong></a>
+                          </li>
                   <li>
                       <a href=""><strong style="color: #ffffff"><i class="glyphicon glyphicon-align-justify"></i> Category</strong></a>
                   </li>
@@ -98,6 +99,65 @@
             </button>
         </a>
     </p>
+
+<!--        / !--Home Content */-->
+        <div>
+         <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="bootstrap/image/fff.png" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="bootstrap/image/fff.png" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="bootstrap/image/fff.png" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="bootstrap/image/fff.png" alt="...">
+                </a>
+            </div>
+        </div>
+      </div>
+
+
+
+</div>
+<!--         footer section-->
+<div class="container">
+<footer >
+
+    <div class="container" >
+            <div class="row" style="text-align: center">
+                <p><strong style="color: #3B5B7E;">Stay Connected With Me...</strong></p>
+                <a href="" style="color: ;font-size: 50px;" ><i class="fa fa-facebook"></i></a>
+                <a href="" style="color: rgba(22,102,250,0.78);font-size: 50px;padding: 15px" ><i class="fa fa-twitter"></i></a>
+                <a href="" style="color: ;font-size: 50px;" ><i class="fa fa-google-plus"></i></a>
+            </div>
+            <div class="row xfoot" style=" ">
+                <div style="text-align: center; color: white;margin-top: 15px">
+                    <a href=""><strong style="color: white;padding: 10px"> Terms &amp; conditions</strong></a>
+                    <a href=""><strong style="color: white;padding: 10px">Faq</strong></a>
+                    <a href=""><strong style="color: white;padding: 10px">Dmca</strong></a>
+                    <a href=""><strong style="color: white;padding: 10px">Sitemap</strong></a>
+                </div>
+            </div>
+    </div>
+
+    <div class="copyright" style="text-align: center; padding: 10px">
+
+        <div class="container">
+            <div class="footercredits">Copyright © Woocrack | powered by Pim Studio</div>
+        </div>
+    </div>
+    </div>
+</footer>
 </div>
 
 
