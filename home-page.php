@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/ex.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/styel.css">
-    <link rel="stylesheet" href="bootstrap/css/autoptimize.css">
+    <link rel="stylesheet" href="bootstrap/css/test.css">
+        <link rel="stylesheet" href="bootstrap/css/demo.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -18,7 +21,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/simpleCart.min.js"></script>
 </head>
-<body>
+<body style="background-color: #2aabd2">
 
 
 <div class="container">
@@ -110,7 +113,155 @@
 
 <!--        / !--Home Content */-->
 
+    <div class="">
+        <div class="row" style="margin-top: 20px">
+            <div class="">
+                <div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
 
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
+
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
+
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
+
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
+
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div><div class="col-lg-3 col-md-4 col-sm-6 " style="padding:10px 0px 0px 10px;height: 235px;width: 220px; " >
+                    <a href="https://woocrack.com/product-category/wordpress-plugins/">
+                        <div class="imageBox ">
+                            <img src="bootstrap/image/2.jpg" class="img-responsive">
+                            <h3 class="textPositionH3">Version <br>
+                                2.2.2
+                            </h3>
+
+                            <div style="padding: 5px">
+                                <strong>product Name</strong>
+                            </div>
+
+
+                            <a href="">
+                                <button style="margin-left: 3px">DOWNLOAD</button>
+
+                                <button class="button" type="button" data-hover="Add To Cart" data-active="I'M ACTIVE" style="margin-left: 0px">
+                                    <span style="padding: 25px" > $5.00 </span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
               <!-- Next page/previous -->
 
@@ -165,6 +316,9 @@
           </footer>
 
 </div>
+
+
+
 
 
 </body>

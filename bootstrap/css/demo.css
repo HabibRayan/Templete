@@ -1,0 +1,135 @@
+.container {
+    position: relative;
+    width: 70%;
+    width: 70%;
+}
+
+
+.testH1 button{
+    position: absolute;
+    font-size: 16px;
+    top: 86%;
+    opacity: 1;
+    background-color: rgba(148,54,122,0.48);
+    width: 80px;
+}
+.testH1:hover{
+    opacity: 1;
+
+}
+.text{
+    opacity: 0;
+}
+.testH1:hover:after{
+    content:attr(text) ;
+    color: rgba(18,24,148,0.93);
+    opacity: 1;
+    text-align: center;
+
+}
+.text:hover{
+    opacity: 1;
+}
+
+
+
+
+
+/* .button */
+
+.button {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    color: #FFF;
+    font-family: 'raleway', sans-serif;
+    background-color: #AE4E12;
+    border-radius: 6px;
+    border: hidden;
+    margin-left: 10px;
+    flex: auto;
+}
+
+
+
+.button:before,
+.button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+/* :before */
+
+.button:before {
+    content: attr(data-hover);
+    font-size: 16px;
+}
+
+/* :after */
+
+.button:after {
+    content: attr(data-active);
+
+}
+
+/* Span on :hover and :active */
+
+.button:hover span,
+.button:active span {
+    opacity: 0;
+}
+.button span{
+    width: 300px;
+}
+
+/*
+    We show :before pseudo-element on :hover
+    and :after pseudo-element on :active
+*/
+
+.button:hover:before,
+.button:active:after {
+    opacity: 1;
+
+
+}
+
+/*
+  We hide :before pseudo-element on :active
+*/
+
+.button:active:before {
+    transform: translate(-150%,0);
+    transition-delay: 0s;
+}
+
+.downloadButton{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px;
+    background-color: rgba(82,255,15,0.93);
+
+
+}
+.downloadButton:after:hover{
+    opacity: 0;
+    background-color: #0e0e0e;
+}
+.downloadButton:before{
+    opacity: 1;
+    background-color: #0e8b00;
+}
+.downloadButton:hover,
+.downloadButton:active {
+    opacity: 0;
+}
